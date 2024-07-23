@@ -22,7 +22,7 @@ function About() {
         <h1 className="text-9xl pt-4 text-center">About</h1>
         <div className="flex flex-row gap-8 pt-6">
           <img ref={boxRef}
-            className="h-[450px]   w-auto rounded-full "
+            className="h-[450px]  shadow-lg shadow-black box-border  w-auto rounded-full "
             src="./images/profile2.png"
             alt=""
           />
