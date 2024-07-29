@@ -5,7 +5,7 @@ import { AiOutlineTwitter, AiFillInstagram, AiFillFacebook } from 'react-icons/a
 
 const Footer=() => {
   return ( 
-    <footer className="flex text-white p-0 gap-20 justify-center justify-evenly flex-wrap items-center h-[80px] w-full">
+    <footer className="flex bg-black text-white p-0 gap-20 justify-center justify-evenly flex-wrap items-center h-[80px] w-full">
       <div className="col-md-4 d-flex items-center  gap-20 align-items-center flex-row">
         <a href="/" className="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
           {/* Replace with your SVG or other logo if needed */}

@@ -1,3 +1,9 @@
+
+
+*{
+  font-family: 'General Sans', sans-serif;}
+
+  
 button {
     font-weight: bold;
     color: white;
@@ -13,12 +19,7 @@ button {
     align-items: center;
   }
   
-@font-face {
-    font-family: 'Ppneuemontreal Variable';
-    src: url('/fonts/ppneuemontreal-medium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
+
   
   button .span-mother {
     display: flex;

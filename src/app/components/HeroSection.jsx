@@ -20,7 +20,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="lg:py-20 bg-[#E1E1E1] md:py-20 sm:py-20 h-screen pl-6">
+    <section className="lg:py-20 h-auto bg-[#E1E1E1] md:py-20 sm:py-20  pl-6">
       <div className="grid grid-cols-1 sm:grid-cols-12 pt-10">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -28,7 +28,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-[#000] mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className="text-[#000] mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-serif font-extrabold">
             <span className="text-[#000] bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hello, I&apos;m{" "}
             </span>
