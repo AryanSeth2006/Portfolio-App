@@ -17,7 +17,7 @@ function About() {
   }, []);
     
   return (
-    <div className="flex  h-auto p-3  justify-center w-full text-black ">
+    <div className="flex bg-[#E6E6E6] rounded-2xl border h-auto p-3  justify-center w-full text-black ">
       <div>
         <h1 className="text-9xl pt-4 text-center">About</h1>
         <div className="flex flex-row gap-8 pt-6">
