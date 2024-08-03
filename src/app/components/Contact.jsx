@@ -8,7 +8,7 @@ function Contact() {
     window.location.href = url;
   };
   return (
-    <div className='h-full flex flex-row p-10 border border-black flex-1 gap-4 bg-[#E2E2DF]' >
+    <div className='h-full flex flex-row p-10   flex-1 gap-4 bg-[#E2E2DF]' >
       <div className=' w-[50%]  h-fit'>
         <h1 className='font-bold text-[20px]'>Let's Connect</h1>
         <br />

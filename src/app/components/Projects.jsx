@@ -1,11 +1,21 @@
 import React from 'react';
 import About from './About';
-
+import './Project.css';
 function Projects() {
   return (
     <div className='bg-[#131311] text-[#D1D1C7] shadow-lg border-black rounded-3xl h-auto min-h-screen p-4'>
-      <About />
+      <About/>
       <h2 className='text-center text-9xl mb-32 font-semibold font-sans'>PROJECTS</h2>
+      <div className="spinner bottom-52 left-32  pb-10">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
       <div className='space-y-80'>
         {/* Project 1 */}
         <div className='flex flex-row'>
