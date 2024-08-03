@@ -10,7 +10,7 @@ function page() {
     <div >
       <Navbar />
       <HeroSection/>
-      <About/>
+    
       <Projects/>
       <Contact />
       <Footer/>
