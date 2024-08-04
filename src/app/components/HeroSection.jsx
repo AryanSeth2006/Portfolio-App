@@ -20,7 +20,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="lg:py-16 h-auto bg-[#D1D1C7] md:py-20 sm:py-20  pl-6">
+    <section className="lg:py-16 sticky h-auto bg-[#D1D1C7] md:py-20 sm:py-20  pl-6">
       <div className="grid grid-cols-1 sm:grid-cols-12 pt-10">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}

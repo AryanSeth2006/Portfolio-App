@@ -15,12 +15,23 @@ function About() {
   }, []);
 
   return (
-    <div className="flex pb-12 h-auto p-3  justify-items-end w-full text-[#] mb-10">
+    <div className="flex pb-8 h-auto p-3  justify-items-end w-full text-[#] mb-8">
       <div>
-        <h1 className="text-[125px] mb-24 uppercase h-auto leading-tight font-regular  pt-4 text-center pl-24">
+        
+        <h1 className="text-[125px] mb-24 uppercase h-auto leading-tight font-regular  pt-4 text-center pl-96 ">
           Developer, <br />
           Programmer
         </h1>
+        <div className="flex items-center spinner bottom-72 left-32 align-middle pb-10">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
         <div className="flex flex-row gap-8 pt-6">
           <img
             ref={boxRef}
