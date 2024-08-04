@@ -10,9 +10,9 @@ function Contact() {
   return (
     <div className="h-full flex flex-row p-10 scroll-smooth  flex-1 gap-4 bg-[#E2E2DF]">
       <div className=" w-[50%]  h-fit">
-        <h1 className="font-bold text-[20px]">Let's Connect</h1>
+        <h1 className="font-bold text-[40px]">Let's Connect</h1>
         <br />
-        <p className="">
+        <p className="text-[20px]">
           I'm currently looking for new opportunities, my inbox is always open.
           Whether you have a question or just want to say hi, I'll try my best
           to get back to you!
@@ -103,8 +103,8 @@ function Contact() {
         </div>
       </div>
 
-      <div className=" w-[50%] gap-14 flex flex-col align-middle  pl-10 ">
-        <div className="input__container w-[400px]">
+      <div className=" w-[50%] gap-14 flex flex-col align-middle  items-center border-4 h-full p-14 rounded-lg border-black pl-10 ">
+        <div className="input__container w-[400px] border">
           <div class="shadow__input"></div>
           <button class="input__button__shadow">
             <svg
@@ -166,6 +166,11 @@ function Contact() {
             class="input__search"
             placeholder="Enter Contact Number"
           />
+        </div>
+        <div className="flex items-center justify-center ">
+          <button type="button" className="btn border-2 border-black bg-[#e9b50b] font-bold text-black p-0">
+            Submit
+          </button>
         </div>
       </div>
     </div>
