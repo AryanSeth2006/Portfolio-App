@@ -7,7 +7,7 @@ import About from './components/About'
 import HeroSection from './components/HeroSection'
 function page() {
   return (
-    <div >
+    <div className='bg-[#E2E2DF]' >
       <Navbar />
       <HeroSection/>
     

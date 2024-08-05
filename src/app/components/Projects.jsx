@@ -3,7 +3,7 @@ import About from "./About";
 import "./Project.css";
 function Projects() {
   return (
-    <div className="bg-[#131311] mb-auto pb-20 text-[#D1D1C7] shadow-lg border-black rounded-3xl h-auto min-h-screen p-4">
+    <div className="bg-[#131311] mb-aut pb-20 text-[#D1D1C7] shadow-lg border-black rounded-3xl h-auto min-h-screen p-4">
       <About />
       <div className="flex flex-col pb-20 ">
         <div className="flex items-center pl-20 gap-56 mb-40 ">
