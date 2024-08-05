@@ -168,7 +168,7 @@ function Contact() {
           />
         </div>
         <div className="flex items-center justify-center ">
-          <button type="button" className="btn border-2 border-black bg-[#e9b50b] font-bold text-black p-0">
+          <button type="button" className="btn border-2 -rotate-3 border-black bg-[#e9b50b] font-bold text-black p-0">
             Submit
           </button>
         </div>

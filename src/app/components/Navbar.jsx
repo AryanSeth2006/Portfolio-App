@@ -30,20 +30,20 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl text-[#131311] items-start md:text-5xl text-start flex justify-start font-regular"
         >
-          Aryan<span className="text-[#8C8C73]">.</span>
+          Aryan<span className="text-[#E9B50B]">.</span>
         </Link>
         <div className="mobile-menu block md:hidden text-[#6B645C]">
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
-              className="flex items-center px-3 py-2 border rounded text-[#6B645C]  hover:text-white hover:border-white"
+              className="flex items-center px-3 py-2 border rounded text-[#6B645C]  hover:text-[#3F3C3B] hover:border-white"
             >
               <Bars3Icon className="h-5 w-5" />
             </button>
           ) : (
             <button
               onClick={() => setNavbarOpen(false)}
-              className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
+              className="flex items-center px-3 py-2 border rounded border-slate-200 text-[#3F3C3B] hover:text-[#3F3C3B] hover:border-white"
             >
               <XMarkIcon className="h-5 w-5" />
             </button>

@@ -1,28 +1,29 @@
 import React from "react";
 import About from "./About";
 import "./Project.css";
+
 function Projects() {
   return (
     <div className="bg-[#131311] mb-aut pb-20 text-[#D1D1C7] shadow-lg border-black rounded-3xl h-auto min-h-screen p-4">
       <About />
       <div className="flex flex-col pb-20 ">
         <div className="flex items-center pl-20 gap-56 mb-40 ">
-          <div class="loader">
-            <div class="circle">
-              <div class="dot"></div>
-              <div class="outline"></div>
+          <div className="loader">
+            <div className="circle">
+              <div className="dot"></div>
+              <div className="outline"></div>
             </div>
-            <div class="circle">
-              <div class="dot"></div>
-              <div class="outline"></div>
+            <div className="circle">
+              <div className="dot"></div>
+              <div className="outline"></div>
             </div>
-            <div class="circle">
-              <div class="dot"></div>
-              <div class="outline"></div>
+            <div className="circle">
+              <div className="dot"></div>
+              <div className="outline"></div>
             </div>
-            <div class="circle">
-              <div class="dot"></div>
-              <div class="outline"></div>
+            <div className="circle">
+              <div className="dot"></div>
+              <div className="outline"></div>
             </div>
           </div>
           <h2 className="text-center text-9xl font-semibold font-sans">
@@ -38,20 +39,20 @@ function Projects() {
               <span>01.</span>
             </h2>
           </div>
-          <div className="flex w-1/2 h-[500px] relative pt-32">
+          <div className="flex w-[750px] h-[580px] relative pt-32 mr-20">
             <div className="relative flex justify-center items-center w-full h-full">
-              <a href="" className="relative">
+              <a href="https://pinterest-clone-six-psi.vercel.app/" className="relative">
                 <img
-                  className="w-[700px] h-[700px] rounded-lg"
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQID5ajnDwWJzDekXxkAjnz9NYh8gtHQa0IRg&s"
+                  className="w-[750px] h-[700px] rounded-lg"
+                  src="https://images.pexels.com/photos/4348556/pexels-photo-4348556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   alt=""
                 />
                 <video
                   autoPlay
                   loop
                   muted
-                  className="absolute h-[500px] w-[550px] inset-0 m-auto"
-                  src="./videos/sample.webm"
+                  className="absolute h- w-[650px] inset-0 m-auto"
+                  src="./videos/pinterest.webm"
                 ></video>
                 <h3 className="font-regular text-[30px] pb-20">
                   Pinterest Clone
@@ -68,19 +69,19 @@ function Projects() {
               <span>02.</span>
             </h2>
           </div>
-          <div className="flex w-1/2 h-[500px] relative">
+          <div className="flex  w-[750px] h-[580px]  relative mr-20">
             <div className="relative flex justify-center items-center w-full h-full">
               <a href="" className="relative">
                 <img
                   className="w-[700px] h-[700px] rounded-lg"
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQID5ajnDwWJzDekXxkAjnz9NYh8gtHQa0IRg&s"
+                  src="https://images.pexels.com/photos/3925875/pexels-photo-3925875.jpeg?auto=compress&cs=tinysrgb&w=600"
                   alt=""
                 />
                 <video
                   autoPlay
                   loop
                   muted
-                  className="absolute h-[500px] w-[550px] inset-0 m-auto"
+                  className="absolute h-[600px] w-[650px] inset-0 m-auto"
                   src="./videos/sample.webm"
                 ></video>
                 <h3 className="font-regular text-[30px]">QDRA App</h3>
@@ -96,19 +97,19 @@ function Projects() {
               <span>03.</span>
             </h2>
           </div>
-          <div className="flex w-1/2 h-[500px] relative">
+          <div className="flex w-[750px] h-[580px]  relative mr-20">
             <div className="relative flex justify-center items-center w-full h-full">
               <a href="" className="relative">
                 <img
                   className="w-[700px] h-[700px] rounded-lg"
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQID5ajnDwWJzDekXxkAjnz9NYh8gtHQa0IRg&s"
+                  src="https://images.pexels.com/photos/8064312/pexels-photo-8064312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   alt=""
                 />
                 <video
                   autoPlay
                   loop
                   muted
-                  className="absolute h-[500px] w-[550px] inset-0 m-auto"
+                  className="absolute h-[600px] w-[650px] inset-0 m-auto"
                   src="./videos/sample.webm"
                 ></video>
                 <h3 className="font-regular text-[30px] pb-20">

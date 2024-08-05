@@ -48,7 +48,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#000] text-base sm:text-lg mb-6 lg:text-xl">
-            Hi, I'm <span className="text-yellow-500">Aryan Seth</span>, a web
+            Hi, I'm <span className="text-[#E9B50B] font-semibold">Aryan Seth</span>, a web
             developer specializing in creating dynamic, responsive websites with
             HTML, CSS, JavaScript, and modern frameworks like React and Next.js.
             I am passionate about writing clean, efficient code and delivering
