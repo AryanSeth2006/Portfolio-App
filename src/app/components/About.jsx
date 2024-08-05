@@ -31,11 +31,11 @@ function About() {
           <span></span>
           <span></span>
         </div>
-        <div className="flex flex-row gap-8 pt-6">
+        <div className="flex flex-row gap-8 pt-4">
           <img
             ref={boxRef}
-            className="h-[550px] pt-4 p-4  w-auto rounded-2xl "
-            src="./images/profile2.png"
+            className="h-[600px] pt-4 p-4  w-auto rounded-2xl "
+            src="./images/profile3.png"
             alt=""
           />
           <div className="text_part ">

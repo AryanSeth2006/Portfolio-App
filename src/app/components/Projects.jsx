@@ -39,11 +39,11 @@ function Projects() {
               <span>01.</span>
             </h2>
           </div>
-          <div className="flex w-[750px] h-[580px] relative pt-32 mr-20">
+          <div className="flex w-auto h-[580px] relative pt-32 mr-20">
             <div className="relative flex justify-center items-center w-full h-full">
               <a href="https://pinterest-clone-six-psi.vercel.app/" className="relative">
                 <img
-                  className="w-[750px] h-[700px] rounded-lg"
+                  className="w-[850px] h-[700px] rounded-lg"
                   src="https://images.pexels.com/photos/4348556/pexels-photo-4348556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   alt=""
                 />
@@ -69,12 +69,12 @@ function Projects() {
               <span>02.</span>
             </h2>
           </div>
-          <div className="flex  w-[750px] h-[580px]  relative mr-20">
+          <div className="flex  w-auto h-[580px]  relative mr-20">
             <div className="relative flex justify-center items-center w-full h-full">
               <a href="" className="relative">
                 <img
-                  className="w-[700px] h-[700px] rounded-lg"
-                  src="https://images.pexels.com/photos/3925875/pexels-photo-3925875.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  className="w-[850px] h-[700px] rounded-lg"
+                  src="https://images.pexels.com/photos/8210468/pexels-photo-8210468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   alt=""
                 />
                 <video
@@ -82,7 +82,7 @@ function Projects() {
                   loop
                   muted
                   className="absolute h-[600px] w-[650px] inset-0 m-auto"
-                  src="./videos/sample.webm"
+                  src="./videos/qdra.webm"
                 ></video>
                 <h3 className="font-regular text-[30px]">QDRA App</h3>
               </a>
@@ -97,11 +97,11 @@ function Projects() {
               <span>03.</span>
             </h2>
           </div>
-          <div className="flex w-[750px] h-[580px]  relative mr-20">
+          <div className="flex w-auto h-[580px]  relative mr-20">
             <div className="relative flex justify-center items-center w-full h-full">
               <a href="" className="relative">
                 <img
-                  className="w-[700px] h-[700px] rounded-lg"
+                  className="w-[850px] h-[700px] rounded-lg"
                   src="https://images.pexels.com/photos/8064312/pexels-photo-8064312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   alt=""
                 />
@@ -110,7 +110,7 @@ function Projects() {
                   loop
                   muted
                   className="absolute h-[600px] w-[650px] inset-0 m-auto"
-                  src="./videos/sample.webm"
+                  src="./videos/soon.mp4"
                 ></video>
                 <h3 className="font-regular text-[30px] pb-20">
                   Express System App
