@@ -25,17 +25,17 @@ const Footer=() => {
 
       <ul className="nav col-md-4 gap-4 flex justify-center   justify-content-end list-unstyled d-flex">
         <li className="ms-3">
-          <a className="text-body-secondary" href="https://twitter.com">
+          <a className="text-body-secondary" href="https://x.com/Aryanseth41">
             <AiOutlineTwitter size={24} />
           </a>
         </li>
         <li className="ms-3">
-          <a className="text-body-secondary" href="https://instagram.com">
+          <a className="text-body-secondary" href="https://www.instagram.com/aryanseth_02/">
             <AiFillInstagram size={24} />
           </a>
         </li>
         <li className="ms-3">
-          <a className="text-body-secondary" href="https://facebook.com">
+          <a className="text-body-secondary" href="https://www.facebook.com/aryan.seth.3720/">
             <AiFillFacebook size={24} />
           </a>
         </li>
