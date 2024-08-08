@@ -1,9 +1,52 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
-import { redirect } from "next/dist/server/api-utils";
 function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const data = {
+      name: formData.get('name'),
+      email: formData.get('email'),
+      phone: formData.get('phone'),
+    };
+  
+    console.log('Submitting data:', data); // Log request payload
+  
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+  
+      if (!response.ok) {
+        const error = await response.json();
+        console.error('Error response:', error); // Log error response
+      } else {
+        const result = await response.json();
+        console.log('Success:', result);
+      }
+    } catch (error) {
+      console.error('Fetch error:', error.message);
+    }
+  };
   const handleRedirect = (url) => {
     window.location.href = url;
   };
@@ -104,74 +147,84 @@ function Contact() {
       </div>
 
       <div className=" w-[50%] gap-14 flex flex-col align-middle  items-center border-4 h-full p-14 rounded-lg border-black pl-10 ">
-        <div className="input__container w-[400px] border">
-          <div class="shadow__input"></div>
-          <button class="input__button__shadow">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="#000000"
-              width="20px"
-              height="20px"
+        <form onSubmit={handleSubmit}>
+          <div className="input__container w-[400px] border">
+            <button class="input__button__shadow">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="#000000"
+                width="20px"
+                height="20px"
+              >
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path>
+              </svg>
+            </button>
+            <input
+              type="email"
+              name="email"
+              class="input__search"
+              value={formData.email}
+              onChange={handleChange}
+              placeholder="Enter email"
+            />
+          </div>
+          <div className="input__container name  w-[400px]">
+            <div class="shadow__input"></div>
+            <button class="input__button__shadow">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="#000000"
+                width="20px"
+                height="20px"
+              >
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path>
+              </svg>
+            </button>
+            <input
+              type="name"
+              name="name"
+              class="input__search"
+              value={formData.name}
+              onChange={handleChange}
+              placeholder="Enter Full Name"
+            />
+          </div>
+          <div className="input__container phone  w-[400px]">
+            <div class="shadow__input"></div>
+            <button class="input__button__shadow">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="#000000"
+                width="20px"
+                height="20px"
+              >
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path>
+              </svg>
+            </button>
+            <input
+              type="tel"
+              name="phone"
+              class="input__search"
+              value={formData.phone}
+              onChange={handleChange}
+              placeholder="Enter Contact Number"
+            />
+          </div>
+          <div className="flex items-center justify-center mt-4 ">
+            <button
+              type="submit"
+              className="btn border-2 -rotate-3 border-black bg-[#e9b50b] font-bold text-black p-0"
             >
-              <path d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path>
-            </svg>
-          </button>
-          <input
-            type="email"
-            name="email"
-            class="input__search"
-            placeholder="Enter email"
-          />
-        </div>
-        <div className="input__container name  w-[400px]">
-          <div class="shadow__input"></div>
-          <button class="input__button__shadow">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="#000000"
-              width="20px"
-              height="20px"
-            >
-              <path d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path>
-            </svg>
-          </button>
-          <input
-            type="name"
-            name="name"
-            class="input__search"
-            placeholder="Enter Full Name"
-          />
-        </div>
-        <div className="input__container phone  w-[400px]">
-          <div class="shadow__input"></div>
-          <button class="input__button__shadow">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="#000000"
-              width="20px"
-              height="20px"
-            >
-              <path d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path>
-            </svg>
-          </button>
-          <input
-            type="number"
-            name="name"
-            class="input__search"
-            placeholder="Enter Contact Number"
-          />
-        </div>
-        <div className="flex items-center justify-center ">
-          <button type="button" className="btn border-2 -rotate-3 border-black bg-[#e9b50b] font-bold text-black p-0">
-            Submit
-          </button>
-        </div>
+              Submit
+            </button>
+          </div>
+        </form>
       </div>
     </div>
   );
