@@ -42,9 +42,11 @@ function Contact() {
       } else {
         const result = await response.json();
         console.log('Success:', result);
+        alert('Thank you for contacting me. I will get back to you soon!')
       }
     } catch (error) {
       console.error('Fetch error:', error.message);
+      alert('Failed to contact me. Please try again later.');
     }
   };
   const handleRedirect = (url) => {

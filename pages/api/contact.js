@@ -5,7 +5,7 @@ export default async function handler(req, res) {
   if (req.method === 'POST') {
     try {
       const client = await clientPromise;
-      const db = client.db('assignm');
+      const db = client.db('Portfolio');
       const collection = db.collection('contacts');
 
       const { name, email, phone } = req.body;
