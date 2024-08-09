@@ -48,7 +48,7 @@ function About() {
   }, []);
 
   return (
-    <div className="about scroll-smooth flex pb-0 h-auto p-3 justify-items-end w-full text-[#] mb-8">
+    <div id='about' className="about scroll-smooth flex pb-0 h-auto p-3 justify-items-end w-full text-[#] mb-8">
       <div>
         <h1 className="text-[125px] mb-20 uppercase h-auto leading-tight font-regular pt-4 text-center pl-96">
           Developer, <br /> Programmer

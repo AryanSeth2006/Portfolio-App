@@ -53,7 +53,7 @@ function Contact() {
     window.location.href = url;
   };
   return (
-    <div className="h-full flex flex-row p-10 scroll-smooth  flex-1 gap-4 bg-[#E2E2DF]">
+    <div id="contact" className="h-full flex flex-row p-10 scroll-smooth  flex-1 gap-4 bg-[#E2E2DF]">
       <div className=" w-[50%]  h-fit">
         <h1 className="font-bold text-[40px]">Let's Connect</h1>
         <br />
