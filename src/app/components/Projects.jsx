@@ -36,7 +36,7 @@ function Projects() {
         {/* Project 1 */}
         <div className="flex flex-row">
           <div className="p-4 flex w-1/2 justify-center">
-            <h2 className="text-[300px] leading-none text-center">
+            <h2 className="text-[300px] text-[#D5FF3F] leading-none text-center">
               <span>01.</span>
             </h2>
           </div>
@@ -82,7 +82,7 @@ function Projects() {
         {/* Project 2 */}
         <div className="flex flex-row">
           <div className="p-4 flex w-1/2 justify-center">
-            <h2 className="text-[300px] leading-none text-center">
+            <h2 className="text-[300px] text-[#D5FF3F] leading-none text-center">
               <span>02.</span>
             </h2>
           </div>
@@ -126,7 +126,7 @@ function Projects() {
         {/* Project 3 */}
         <div className="flex flex-row mb-4 pb-32">
           <div className="p-4 flex w-1/2 justify-center">
-            <h2 className="text-[300px] leading-none text-center">
+            <h2 className="text-[300px] text-[#D5FF3F] leading-none text-center">
               <span>03.</span>
             </h2>
           </div>

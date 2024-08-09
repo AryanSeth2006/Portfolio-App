@@ -48,7 +48,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#000] text-base sm:text-lg mb-6 lg:text-xl">
-            Hi, I'm <span className="text-[#E9B50B] font-semibold">Aryan Seth</span>, a web
+            Hi, I'm <span className="text-[#fff] font-semibold">Aryan Seth</span>, a web
             developer specializing in creating dynamic, responsive websites with
             HTML, CSS, JavaScript, and modern frameworks like React and Next.js.
             I am passionate about writing clean, efficient code and delivering
@@ -105,11 +105,11 @@ const HeroSection = () => {
             className="prof_img shadow-lg shadow-black rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative"
           >
             <Image
-              src="/images/profile.jpg"
+              src="/images/shirt.jpg"
               alt="hero image"
               className="prof_img shadow-lg absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={400}
-              height={400}
+              width={300}
+              height={300}
             />
           </div>
         </motion.div>

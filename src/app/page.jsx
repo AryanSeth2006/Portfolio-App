@@ -4,12 +4,14 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Projects from './components/Projects'
 import About from './components/About'
+import Tag from './components/Tag'
 import HeroSection from './components/HeroSection'
 function page() {
   return (
     <div className='bg-[#E2E2DF]' >
       <Navbar />
       <HeroSection/>
+      <Tag />
     
       <Projects/>
       <Contact />
