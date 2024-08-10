@@ -48,10 +48,10 @@ function About() {
   }, []);
 
   return (
-    <div id='about' className=" about scroll-smooth flex pb-0 h-auto p-3 justify-items-end w-full text-[#] mb-8">
+    <div id='about' className=" about scroll-smooth flex pb-0 h-auto p-3 justify-items-end w-full text-[#] -mb-10">
       <div>
-        <h2 className="text-9xl font-sans font-semibold mb-20 uppercase h-auto leading-tight font-regular pt-4 text-center pl-96">
-          Developer, <br /> Programmer
+        <h2 className="text-9xl  tracking-tighter font-sans font-semibold mb-20 uppercase h-auto leading-[120px] font-regular pt-4 text-center pl-96">
+          Developer , <br /> Programmer
         </h2>
         <div className="flex items-center spinner bottom-72 left-32 align-middle pb-10">
           <span></span>

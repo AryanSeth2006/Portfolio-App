@@ -20,7 +20,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="lg:py-10 sticky h-auto bg-[#D1D1C7] md:py-20 sm:py-20  pl-6">
+    <section className="lg:py-10 sticky h-auto bg-[#D5FF3F] md:py-20 sm:py-20  pl-6">
       <div className="grid grid-cols-1 sm:grid-cols-12 pt-10">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -47,8 +47,8 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#000] text-base sm:text-lg mb-6 lg:text-xl">
-            Hi, I'm <span className="text-[#fff] font-semibold">Aryan Seth</span>, a web
+          <p className="text-[#3C2A21] text-base sm:text-lg mb-6 lg:text-xl">
+            Hi, I'm <span className=" font-semibold">Aryan Seth</span>, a web
             developer specializing in creating dynamic, responsive websites with
             HTML, CSS, JavaScript, and modern frameworks like React and Next.js.
             I am passionate about writing clean, efficient code and delivering

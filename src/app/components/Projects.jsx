@@ -1,11 +1,12 @@
 import React from "react";
 import About from "./About";
 import "./Project.css";
-
+import Skill from "./Skill";
 function Projects() {
   return (
-    <div id="" className="bg-[#131311] mb-auto pb-20 text-[#D1D1C7] shadow-lg border-black rounded-3xl h-auto min-h-screen p-4">
+    <div id="" className="bg-[#131311]  mb-auto pb-20 text-[#D1D1C7] shadow-lg border-black rounded-3xl h-auto min-h-screen p-4">
       <About />
+      <Skill/>
       <i id="project" class="ri-github-fill"></i>
       <div className="flex flex-col pb-20 ">
         <div className="flex items-center pl-20 gap-56 mb-40 ">
@@ -28,7 +29,7 @@ function Projects() {
             </div>
           </div>
           <h2 className="text-center text-9xl font-semibold font-sans">
-            PROJECTS
+            PROJECTS <span className="text-[#D5FF3F]">.</span>
           </h2>
         </div>
       </div>
