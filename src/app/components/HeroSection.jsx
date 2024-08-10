@@ -19,6 +19,15 @@ const HeroSection = () => {
     });
   }, []);
 
+  const handleDownload=  ()=> {
+    const link = document.createElement('a');
+    link.href = '/resume.pdf'
+    link.download = 'Aryan_Seth_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
   return (
     <section className="lg:py-10 sticky h-auto bg-[#D5FF3F] md:py-20 sm:py-20  pl-6">
       <div className="grid grid-cols-1 sm:grid-cols-12 pt-10">
@@ -62,7 +71,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/"
+              href="/" onClick={handleDownload}
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <button>

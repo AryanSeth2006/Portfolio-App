@@ -14,8 +14,7 @@ function Skill() {
         I offer end-to-end web development services, from crafting custom
         designs to integrating third-party APIs. My approach ensures a fast,
         engaging user experience with ongoing support to keep your site secure
-        and functional. Transform your ideas into reality with expert web
-        solutions.
+        and functional. 
       </p>
      </div>
       <div className="animation flex flex-wrap w-full pr-20 justify-end items-center ">
