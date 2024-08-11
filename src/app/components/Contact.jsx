@@ -53,7 +53,7 @@ function Contact() {
     window.location.href = url;
   };
   return (
-    <div id="contact" className="h-full flex flex-row p-10 scroll-smooth  flex-1 gap-4 bg-[#D5FF3F]">
+    <div id="contact" className="h-full flex flex-row p-10 scroll-smooth  flex-1 gap-4 bg-[#E2E2DF]">
       <div className=" w-[50%]  h-fit">
         <h1 className="font-bold text-[40px]">Let's Connect</h1>
         <br />
@@ -148,9 +148,9 @@ function Contact() {
         </div>
       </div>
 
-      <div className=" w-[50%] gap-14 flex flex-col align-middle  items-center border-4 h-full p-14 rounded-lg border-black pl-10 ">
+      <div className=" w-[50%]  gap-14  flex flex-col align-middle  items-center border-4 h-full p-14 rounded-lg border-black pl-10 ">
         <form onSubmit={handleSubmit}>
-          <div className="input__container w-[400px] border">
+          <div className="input__container mb-10 w-[400px] border">
             <button class="input__button__shadow">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -172,7 +172,7 @@ function Contact() {
               placeholder="Enter email"
             />
           </div>
-          <div className="input__container name  w-[400px]">
+          <div className="input__container name  mb-10 w-[400px]">
             <div class="shadow__input"></div>
             <button class="input__button__shadow">
               <svg
@@ -195,7 +195,7 @@ function Contact() {
               placeholder="Enter Full Name"
             />
           </div>
-          <div className="input__container phone  w-[400px]">
+          <div className="input__container phone mb-10 w-[400px]">
             <div class="shadow__input"></div>
             <button class="input__button__shadow">
               <svg
@@ -221,7 +221,7 @@ function Contact() {
           <div className="flex items-center justify-center mt-4 ">
             <button
               type="submit"
-              className="btn border-2 -rotate-3 border-black bg-[#e9b50b] font-bold text-black p-0"
+              className="btn border-2 -rotate-3 border-black bg-[#F3CBA5] font-bold text-black p-0"
             >
               Submit
             </button>

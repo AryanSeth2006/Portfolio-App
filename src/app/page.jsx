@@ -8,7 +8,7 @@ import Tag from './components/Tag'
 import HeroSection from './components/HeroSection'
 function page() {
   return (
-    <div className='bg-[#D5FF3F]' >
+    <div className='bg-[#E2E2DF]' >
       <Navbar />
       <HeroSection/>
       <Tag />

@@ -24,7 +24,7 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className=" mx-auto flex justify-center bg-[#D5FF3F]   top-0 left-0 right-0 z-8">
+    <nav className=" mx-auto flex justify-center bg-[#D1D1C7]   top-0 left-0 right-0 z-8">
       <div className="flex container lg:py-3 flex-wrap justify-around align-middle items-center   space-x-10 mx-auto px-4 py-2 ">
         <Link
           href={"/"}

@@ -22,7 +22,7 @@ export default function Tag() {
     <div className="p-4 bg-black flex items-center justify-center overflow-hidden">
       <h2
         ref={textRef}
-        className="font-bold uppercase text-[#D5FF3F] text-4xl whitespace-nowrap"
+        className="font-bold uppercase text-[#D1D1C7] text-4xl whitespace-nowrap"
         style={{ display: "inline-block", whiteSpace: "nowrap" }}
       >
         <span className="inline-block pr-5">Bring your vision to life</span>

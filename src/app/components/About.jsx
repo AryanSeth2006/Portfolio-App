@@ -48,7 +48,7 @@ function About() {
   }, []);
 
   return (
-    <div id='about' className=" about scroll-smooth flex pb-0 h-auto p-3 justify-items-end w-full text-[#] -mb-10">
+    <div id='about' className=" about scroll-smooth flex pb-0 h-auto p-3 justify-items-end w-full text-[] -mb-10">
       <div>
         <h2 className="text-9xl  tracking-tighter font-sans font-semibold mb-20 uppercase h-auto leading-[120px] font-regular pt-4 text-center pl-96">
           Developer , <br /> Programmer
@@ -74,7 +74,7 @@ function About() {
             <p className="para font-medium flex flex-col h-auto w-full pr-4 align-top items-start text-3xl font-regular" ref={paraRef}>
               Hello, I'm Aryan, a full-stack developer with a passion for continuous learning and professional growth. While my foundation lies in the MERN stack, I am actively exploring advanced topics in web development such as performance optimization, serverless architectures, and progressive web apps (PWAs).
             </p>
-            <div className="flex h-auto text-[#D5FF3F] pt-10">
+            <div className="flex h-auto text-[#A19D9A] pt-10">
               <p className="para flex flex-wrap gap-8 font-thin text-2xl justify-start w-[600px] items-start">
                 ( ABOUT ME ) {" "}
                 <span className="flex flex-wrap text-2xl">

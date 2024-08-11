@@ -5,7 +5,7 @@ import { AiOutlineTwitter, AiFillInstagram, AiFillFacebook } from 'react-icons/a
 
 const Footer=() => {
   return ( 
-    <footer className="flex text bg-[#D5FF3F] rounded-lg text-[#000] p-0 gap-20  justify-evenly flex-wrap items-center h-[400px] space-y-60 w-full ">
+    <footer className="flex text bg-[#E2E2DF] rounded-lg text-[#000] p-0 gap-20  justify-evenly flex-wrap items-center h-[400px] space-y-60 w-full ">
       <div className='flex  flex-col absolute justify-center items-center text-center flex-wrap  pb-10'>
         <p className='text-lg'>Got a project? Need an unfair advantage?</p>
         <a href="#">
