@@ -3,7 +3,7 @@ import './Skill.css'; // Import the CSS file for the animation
 
 function Skill() {
   return (
-    <div className="skill h-auto pb-20 overflow-hidden ">
+    <div className="skill h-auto pb-20 overflow-hidden \">
       <div className="header_part">
         <h2 className="text-6xl text-center uppercase font-semibold">Skills</h2>
       </div>
@@ -65,6 +65,16 @@ function Skill() {
               <img className="color-white" src="https://cdn.worldvectorlogo.com/logos/github-icon.svg" alt="" />
             </a>
           </div>
+          <div className="icon h-14 w-14">
+            <a href="">
+              <img className="color-white" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Solidity_logo.svg/579px-Solidity_logo.svg.png" alt="" />
+            </a>
+          </div>
+          <div className="icon h-20 w-20">
+            <a href="">
+              <img className="color-white" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/768px-Typescript_logo_2020.svg.png?20221110153201" alt="" />
+            </a>
+          </div>
 
           {/* Duplicate the icons for seamless looping */}
           <div className="icon html">
@@ -120,6 +130,16 @@ function Skill() {
           <div className="icon h-20 w-20">
             <a href="">
               <img className="color-white" src="https://cdn.worldvectorlogo.com/logos/github-icon.svg" alt="" />
+            </a>
+          </div>
+          <div className="icon h-14 w-14">
+            <a href="">
+              <img className="color-white" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Solidity_logo.svg/579px-Solidity_logo.svg.png" alt="" />
+            </a>
+          </div>
+          <div className="icon h-20 w-20">
+            <a href="">
+              <img className="color-white" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/768px-Typescript_logo_2020.svg.png?20221110153201" alt="" />
             </a>
           </div>
         </div>
