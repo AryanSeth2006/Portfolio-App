@@ -1,9 +1,15 @@
-
-
-*{
-  font-family: 'General Sans', sans-serif;}
-
+@font-face{
+  font-family: 'ppneu';
+  src: url('./fonts/hu2.woff2');
+  font-weight: auto;
   
+}
+*{
+  font-family: 'ppneu' !important;
+}
+.head{
+  font-family: 'ppneu';
+}
 button {
     font-weight: bold;
     color: white;
