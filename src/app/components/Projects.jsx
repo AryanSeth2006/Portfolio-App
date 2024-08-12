@@ -1,7 +1,8 @@
 import React from "react";
 import About from "./About";
 import "./Project.css";
-import Skill from "./Services";
+import Services from "./Services";
+import Skill from "./Skill";
 function Projects() {
   return (
     <div
@@ -10,6 +11,7 @@ function Projects() {
     >
       <About />
       <Skill />
+      <Services/>
       <div className="project_section pt-44">
         <i id="project" class="ri-github-fill "></i>
         <div className="flex flex-col pb-10 ">

@@ -143,3 +143,29 @@
    .loade-square:nth-of-type(7) {
     animation-delay: -10s;
    }
+   /* Scoped styles for the Services component */
+.services h3 {
+    color: #BBBBAE; /* Initial color of the text */
+    opacity: 0.6; /* Make text slightly visible */
+    transition: opacity 0.3s ease, color 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Hover effect for individual h3 elements */
+  .services .flex-row:hover h3 {
+    opacity: 1; /* Fully visible on hover */
+    color: #D1D1C7; /* Change text color on hover if needed */
+  }
+  
+  /* Ensure the rest of the layout is unaffected */
+  .services .flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1px solid #BBBBAE;
+    padding: 1rem;
+  }
+  
+  .services .flex-row a svg {
+    fill: rgb(240, 227, 202);
+  }
+  
