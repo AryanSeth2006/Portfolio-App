@@ -57,17 +57,17 @@ function Skill() {
           </div>
           <div className="icon git h-40 w-40">
             <a href="">
-              <img className="color-white pt-12" src="https://cdn.worldvectorlogo.com/logos/git.svg" alt="" />
+              <img className="color-white pt-12" src="https://book.git-scm.com/images/logos/1color-darkbg@2x.png" alt="" />
             </a>
           </div>
           <div className="icon h-20 w-20">
             <a href="">
-              <img className="color-white" src="https://cdn.worldvectorlogo.com/logos/github-icon.svg" alt="" />
+              <img className="color-white" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzpUN6yhPjDbIPLhCSEXdnqaBqCj4IYrrbHw&s" alt="" />
             </a>
           </div>
-          <div className="icon h-14 w-14">
+          <div className="icon h-20 w-20">
             <a href="">
-              <img className="color-white" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Solidity_logo.svg/579px-Solidity_logo.svg.png" alt="" />
+              <img className="color-white" src="https://www.svgrepo.com/show/374088/solidity.svg" alt="" />
             </a>
           </div>
           <div className="icon h-20 w-20">
@@ -124,17 +124,17 @@ function Skill() {
           </div>
           <div className="icon git h-40 w-40">
             <a href="">
-              <img className="color-white pt-12" src="https://cdn.worldvectorlogo.com/logos/git.svg" alt="" />
+              <img className="color-white pt-12" src="https://book.git-scm.com/images/logos/1color-darkbg@2x.png" alt="" />
             </a>
           </div>
           <div className="icon h-20 w-20">
             <a href="">
-              <img className="color-white" src="https://cdn.worldvectorlogo.com/logos/github-icon.svg" alt="" />
+              <img className="color-white" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzpUN6yhPjDbIPLhCSEXdnqaBqCj4IYrrbHw&s" alt="" />
             </a>
           </div>
           <div className="icon h-14 w-14">
             <a href="">
-              <img className="color-white" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Solidity_logo.svg/579px-Solidity_logo.svg.png" alt="" />
+              <img className="color-white" src="https://www.svgrepo.com/show/374088/solidity.svg" alt="" />
             </a>
           </div>
           <div className="icon h-20 w-20">
