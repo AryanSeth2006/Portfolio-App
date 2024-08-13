@@ -35,9 +35,9 @@ function Skill() {
               <img className="h-20 w-full" src="https://upload.wikimedia.org/wikipedia/commons/9/94/MERN-logo.png" alt="" />
             </a>
           </div>
-          <div className="icon h-20 w-20">
+          <div className="icon h-24 w-24">
             <a href="">
-              <img className="color-white" src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png" alt="" />
+              <img className="color-white pt-3" src="https://future-architect.github.io/images/20240228a/top.jpg" alt="" />
             </a>
           </div>
           <div className="icon h-20 w-20">
@@ -104,7 +104,7 @@ function Skill() {
           </div>
           <div className="icon h-20 w-20">
             <a href="">
-              <img className="color-white" src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png" alt="" />
+              <img className="color-white" src="https://future-architect.github.io/images/20240228a/top.jpg" alt="" />
             </a>
           </div>
           <div className="icon h-20 w-20">
