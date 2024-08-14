@@ -8,7 +8,7 @@ function Services() {
     <div className="flex flex-row">
       <div className="section-1">
         <h2 className="uppercase tracking-tighter w-[950px] text-[#D1D1C7] text-start font-bold font-ppneuemontreal text-9xl">
-          mine services <span className="text-[#93908B]"> .</span>{" "}
+          Expertise <span className="text-[#93908B]"> .</span>{" "}
         </h2>
         <p className="w-[890px] text-[#93908B] text-md font-ppneuemontreal pl-2 pt-4">
           I offer end-to-end web development services, from crafting custom
