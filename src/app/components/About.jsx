@@ -67,7 +67,7 @@ function About() {
           <img
             ref={boxRef}
             className="h-[600px] pt-4 p-4 w-auto rounded-2xl "
-            src="./images/laptop.jpg"
+            src="./images/laptop.png"
             alt=""
           />
           <div className="text_part ">
